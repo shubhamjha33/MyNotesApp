@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<!--[if lt IE 9]>
+		<script src="html5shiv.js" type="text/javascript"></script> 
+		<script src="respond.js" type="text/javascript"></script> 
+		<![endif]-->
+		<title>My Notes</title>
+		<meta name="description" content="Custom Notes adder website">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="main_styles.css">
+	</head>
+	<body>
+		<header class="header">
+			<h1>My Notes</h1>
+			<form class="header-form clearfix">
+				<input type="text" name="note_title" placeholder="Title" class="note-title">
+				<textarea rows="3" name="note_content" placeholder="Take a note...." class="note-content" wrap="hard" cols="10"></textarea>
+				<button type="submit">Done</button>
+			</form>
+		</header>
+		<main class="note-container clearfix">
+		</main>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
